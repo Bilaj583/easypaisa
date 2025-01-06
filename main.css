@@ -95,7 +95,7 @@ body{
     width: 100%;
     height: 750px;
     background-color: #00BE5F;
-    background-image: url(/navbar/img/e-min.png),url(/easypaisa/img/1e.png);
+    background-image: url(e-min.png),url(1e.png);
     background-size: 5%,95%;
     background-position: center bottom,center top;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ body{
 .thirdpage{
     width: 100%;
     height: 110vh;
-    background-image:url(/navbar/img/5e.png) ,url(/navbar/img/4e.png);
+    background-image:url(5e.png) ,url(4e.png);
     background-size: 80vw 80vh,cover;
     background-position: center bottom,left top;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@ body{
 .text2page{
     width: 43%;
     height: 100vh;
-    background-image: url(/easypaisa/img/logoe.png),url(/navbar/img/3e.png);
+    background-image: url(logoe.png),url(3e.png);
     background-size: 180px,40vw 40vh;
     background-position: left top,right bottom;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ body{
 .secondpage{
     width: 80%;
     height: 100vh;
-    background-image:url(/navbar/img/2e.webp);
+    background-image:url(2e.webp);
     background-size: 55vw 100%;
     background-repeat: no-repeat;
 }
