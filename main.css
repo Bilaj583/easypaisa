@@ -1,0 +1,274 @@
+body{
+    background-color: #EBF5F0;
+}
+/* ***************************************header*************************************** */
+.container{
+    display: flex;
+    height: 100px;
+    gap: 250px;
+    background-color: white;
+
+}
+.search {
+            
+    background-color: white;
+    border: none;
+}
+
+.box1{
+    width: 55vw;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: end; */
+    
+}
+.hc-2{
+    height: 15vh;
+    display: flex;
+    align-items: center; 
+}
+.logo{
+    display: flex;
+    align-items: center; 
+
+}
+.logo img{
+    width: 150px;
+}
+.hc-2 a{
+    text-decoration: none;
+    color: black;
+}
+.box2{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hc-3 button{
+    height: 40px;
+    width: 13vw;
+    border-radius: 25px;
+    background-color: rgb(6, 2, 68);
+    margin-left: 25px;
+    
+    
+    
+}
+.hc-3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px; 
+    
+}
+.select{
+    border-radius: 20px;
+    margin-left: 150px;
+}
+.header  a:hover{
+    border: 1px solid #00BE5F;
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00BE5F;
+    transition: 0.1s;
+}
+
+
+
+.box2 .hc-3 button:hover{
+    border: 1px solid  #00BE5F;
+    background:  #00BE5F;
+    height: 40px;
+    width: 13vw;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+/* ***************************************first page*********************************** */
+.firstpage{
+    width: 100%;
+    height: 750px;
+    background-color: #00BE5F;
+    background-image: url(/navbar/img/e-min.png),url(/easypaisa/img/1e.png);
+    background-size: 5%,95%;
+    background-position: center bottom,center top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.liveeasy{
+    width: 22%;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.playstore{
+    width: 12%;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+}
+.appstore{
+    width: 13%;
+    height: 60px;
+    position: absolute;
+    top: 420px;
+    left: 470px;
+}
+.firstpagetext {
+    color: white;
+    width: 30%;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top: 220px;
+    left: 250px;
+}
+/* ***************************************second page********************************************* */
+
+.thirdpage{
+    width: 100%;
+    height: 110vh;
+    background-image:url(/navbar/img/5e.png) ,url(/navbar/img/4e.png);
+    background-size: 80vw 80vh,cover;
+    background-position: center bottom,left top;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.thirdpagetext{
+    text-align: center;
+}
+.thirdpagetextdata{
+    
+    padding-left: 380px;
+    padding-right: 350px;
+    width: 50vw;
+    text-align: center;
+}
+.thirdpagetextdata1{
+    padding-left: 350px;
+    padding-right: 350px;
+    width: 50vw;
+    text-align: center;
+
+}
+/* **********************************************third page******************************************** */
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.text2page{
+    width: 43%;
+    height: 100vh;
+    background-image: url(/easypaisa/img/logoe.png),url(/navbar/img/3e.png);
+    background-size: 180px,40vw 40vh;
+    background-position: left top,right bottom;
+    background-repeat: no-repeat;
+    padding-right: 140px;
+
+}
+.text2page p{
+    font-size: x-large;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondpage{
+    width: 80%;
+    height: 100vh;
+    background-image:url(/navbar/img/2e.webp);
+    background-size: 55vw 100%;
+    background-repeat: no-repeat;
+}
+/* *****************************************************fotter**************************************** */
+
+.foter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+}
+.content{
+    background-color: #EBF5F0;
+     width: 90%; 
+     height: 100vh;
+     margin-top: 5px;
+     border-top: 5px solid  rgb(67, 143, 67);
+     border-radius: 5px;
+     
+}
+.textfoter{
+    color: rgb(67, 143, 67);
+    height: 22vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.heading{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foter1{
+    width: 25%;
+    border-top: 5px solid  rgb(67, 143, 67);
+    border-radius: 5px;
+}
+.foter2{
+    width: 25%;
+    border-top: 5px solid  rgb(67, 143, 67);
+    border-radius: 5px;
+}
+.foter3{
+
+    width: 25%;
+    border-top: 5px solid  rgb(67, 143, 67);
+    margin-right: 30px;
+    border-radius: 5px;
+}
+h2{
+    color:  rgb(67, 143, 67) ;
+}
+.foter1-1 a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.foter2-1 a{
+    text-decoration: none;
+    color: black;
+    
+}
+.foter3-1{
+    font-size: 20px;
+}
+.imagefoter{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.playstore1{
+    height: 50px;
+    width: 200px;
+}
+.appstore1{
+    height: 50px;
+    width: 200px;
+
+}
